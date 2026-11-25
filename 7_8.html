@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor {
+            width: 100%;
+            max-width: 1300px;
+            font-size: 0;
+        }
+
+        /* Cada caja */
+        div > div {
+            display: inline-block;
+            height: 200px;
+        }
+        
+        /* Fila superior */
+        .rojo {
+            width: 33.33%;
+            background-color: red;
+        }
+
+        .verde {
+            width: 33.33%;
+            background-color: green;
+        }
+
+        .azul {
+            width: 33.33%;
+            background-color: blue;
+        }
+
+        /* Fial media */
+        .negro {
+            width: 100%;
+            background-color: black;
+        }
+        /* Fila inferior */
+        .rosa {
+            width: 50%;
+            background-color: pink;
+        }
+
+        .naranja {
+            width: 50%;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="rojo"></div>
+        <div class="verde"></div>
+        <div class="azul"></div>
+
+        <div class="negro"></div>
+
+        <div class="rosa"></div>
+        <div class="naranja"></div>
+    </div>
+</body>
+</html>
